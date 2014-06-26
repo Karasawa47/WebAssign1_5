@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <form action="/Validation/Index" method="get">
+        First Name:<input type="text" id="FirstName" name="FirstName" value="" />
+        <br />
+        Last Name:<input type="text" id="LastName" name="LastName" value="" />
+        <br />
+        BirthDate:<input type="date" id="BirthDate" name="BirthDate" />
+        <br />
+        Number of Computers in Household:<input type="text" id="Computers" name="Computers" />
+        <br />
+        Gender:<input type="radio" id="maleRad" name="Gender" value="male" />Male
+        <input type="radio" id="femaleRad" name="Gender" value="female" />Female
+        <br />
+        Favorite Color:
+        <select id="favColor" name="Color">
+            <option selected value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="purple">Purple</option>
+        </select>
+        <br />
+        Are you a Developer?<input type="radio" id="yesDeveloper" name="IsDeveloper" value="true" />Yes
+        <input type="radio" id="no" name="IsDeveloper" value="false" />No
+        <br />
+        Notes:
+        <br />
+        <textarea id="notes" name="Notes" rows="8" cols="70"></textarea>
+        <br />
+
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
